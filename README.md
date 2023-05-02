@@ -10,9 +10,9 @@ Main use cases for Merative Integrated Care Reporting BYOT are the creation of c
 
 The Merative Integrated Care Reporting application is built on IBM® DB2® Warehouse. For more information on IBM Db2 Warehouse, see the IBM documentation.
 
-The data catalog for Merative Integrated Care Reporting BYOT is available at this URL: https://merative.github.io/wcm-reporting-datacatalog
+The data catalog for Merative Integrated Care Reporting BYOT is available at here [https://merative.github.io/integratedcare-reporting-datacatalog/#/](https://merative.github.io/integratedcare-reporting-datacatalog)
 
-The Git repository for the data catalog is located at this URL: https://github.com/merative/wcm-reporting-datacatalog
+The Git repository for the data catalog is located at here [https://github.com/merative/integratedcare-reporting-datacatalog](https://github.com/merative/integratedcare-reporting-datacatalog)
 
 The Merative Integrated Care SaaS offering includes a warehouse for BYOT workloads. A data refresh cycle, that runs every two hours, copies data from the application to the warehouse. So that you are aware of when the last data refresh happened, a Data Refresh table is available. This table contains two data items, the Last Refresh Date which shows the last refresh date and time and the Last Refresh Status, for example, Complete or In Progress. Application data that is recorded after the last refresh date is not available. Coordinated Universal Time (UTC) is the time standard used in all reports that display a time, including the last data refresh date and time.
 
